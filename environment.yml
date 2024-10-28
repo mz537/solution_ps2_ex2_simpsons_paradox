@@ -1,0 +1,12 @@
+name: smoke
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - polars
+  - seaborn
+  - matplotlib
+  - pandas
+  - numpy
+  - pre-commit
+  - pyarrow
